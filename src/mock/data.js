@@ -2,17 +2,17 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Ángel Hernández | Developer', // e.g: 'Name | Developer'
+  lang: 'EN, ES', // e.g: en, es, fr, jp
+  description: 'Personal portfolio made with React and Gatsby :)', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'Hello my name is ',
+  name: 'Ángel',
+  subtitle: "I'm a Front-End Developer",
+  cta: 'About Me',
 };
 
 // ABOUT DATA
@@ -59,7 +59,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'angelhpascual@gmail.com',
 };
 
 // FOOTER DATA
@@ -90,5 +90,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
